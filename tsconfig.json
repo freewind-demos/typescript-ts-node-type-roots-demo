@@ -6,6 +6,14 @@
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": true
-  }
+    "sourceMap": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "typings"
+    ]
+  },
+  "files": [
+    "typings/abc/index.d.ts",
+    "hello.ts"
+  ]
 }

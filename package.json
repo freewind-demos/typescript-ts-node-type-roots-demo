@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "ts-node": "ts-node --files='typings/*.d.ts' hello.ts",
-    "tsc": "tsc typings/*.d.ts hello.ts && node hello.js"
+    "ts-node": "ts-node hello.ts",
+    "tsc": "tsc && node hello.js"
   },
   "devDependencies": {
     "@types/node": "10.12.18",
